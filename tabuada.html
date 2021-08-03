@@ -1,0 +1,42 @@
+<meta charset="utf-8">
+<h1>Tabuada</h1>
+<br>
+
+<script>
+	
+	function pulaLinha(){
+
+		document.write("<br>");
+
+	}
+
+
+	function mostra(texto){
+
+		document.write(texto);
+		pulaLinha();
+	}
+
+	var numero = 2;
+	var multiplicador = 1
+
+	while(multiplicador <= 10){
+
+		mostra(numero + " x " + multiplicador + "=" + (multiplicador*numero));
+		multiplicador = multiplicador + 1;
+	}
+
+	document.write("<br><br>");
+
+	var numero = 3;
+	var multiplicador = 1
+	while(multiplicador <= 10){
+
+		mostra(numero + " x " + multiplicador + "=" + (multiplicador*numero));
+		multiplicador = multiplicador + 1;
+	}
+
+
+	
+
+</script>
