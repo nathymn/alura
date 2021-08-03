@@ -1,2 +1,2 @@
 # alura
-Projetos da Alura
+Projetos da trilha da Alura
