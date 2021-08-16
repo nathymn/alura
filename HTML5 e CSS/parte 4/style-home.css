@@ -1,0 +1,200 @@
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+header{
+	background: #000000;
+    padding: 20px 0;
+}
+
+.caixa{
+	width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+.titulo-principal li{
+	text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    word-spacing: 10px;
+}
+
+nav{
+    text-align: center;
+}
+
+.menu{
+	padding: 10px;
+	background: #BBBBBB;
+}
+
+nav li{
+    margin: 0 0 0 15px;
+	
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: red;
+    transform: scale(1.2);
+}
+
+.banner {
+	width:100%;
+}
+
+.titulo-alinhamento {
+	font-size: 2em;
+	text-align: center;
+	font-weight: bold;
+	padding: 20px;
+	font-size: 30px;
+}
+
+p {
+	text-align: left;
+	line-height: 5px;
+	margin: 0 0 1em;
+	line-height: initial;
+}
+
+.utensilios {
+	width: 130px;
+	float: left;
+	margin: 0 20px 20px 0;
+	padding: 10px 0 0 0
+}
+
+.principal{
+	padding: 10px 20px 20px;
+	margin: 2em;
+	background: #FEFEFE;
+}
+
+.conteudo-sobre{
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p{
+	width: 940px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.mapa{
+	
+	background: linear-gradient(#FEFEFE, #888888);
+}
+
+.conteudo-mapa{
+	width: 940px;
+	margin: 0 auto;
+	padding: 3em 0;	
+}
+
+.mapa p{
+	text-align: center;
+	margin: 5px 0 15px;
+}
+
+.beneficios {
+	background: #888888;	
+	padding: 0 0 3em;
+}
+
+.itens-beneficios{
+	width: 940px;
+	margin: 0 auto;
+}
+
+.beneficios ul {
+	display: inline-block;
+	vertical-align: top;
+	text-align:left;
+}
+
+.imagembeneficios {
+	width: 40%;
+	vertical-align: top;
+	margin: 5px 50px; 
+	transition: 400ms;
+	box-shadow: 5px 5px black;
+
+}
+
+.imagem-beneficios:hover{
+	opacity: 0.3;
+}
+
+.beneficios ul li::before{
+	content: "★ ";
+}
+
+.beneficios ul li{
+	padding: 10px 0 15px;
+    font-size: 18px;
+}
+
+.video{
+	width: 560px;
+	margin: 3em 398px 0;
+}
+
+em strong {
+	font-style: italic;
+}
+
+.itens {
+	font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background: url(./img/bg.jpg);
+}
+
+.texto-final{
+    color: white;
+    font-size: 13px;
+    
+}
+
+/*/@media screen and (max-width: 480px) {
+    .caixa, .principal, .itens-beneficios, .conteudo-mapa, .video, .conteudo-sobre {
+        width: auto;
+		margin: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav{
+       width: auto;
+    }
+
+    .itens-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
+}
+
+
+
+
+    
